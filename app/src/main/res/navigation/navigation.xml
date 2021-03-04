@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/liste_livres_fragment_destination">
+
+    <fragment
+        android:id="@+id/liste_livres_fragment_destination"
+        android:name="com.app.android.tutorielc1firestore.ui.ListeLivresFragment"
+        android:label="Liste livres Fragment"
+        tools:layout="@layout/fragment_liste_livres">
+        <action
+            android:id="@+id/action_liste_livres_fragment_destination_to_filter_fragment_destination"
+            app:destination="@id/filter_fragment_destination" />
+        <action
+            android:id="@+id/action_liste_livres_fragment_destination_to_ajouter_livre_fragment_destination"
+            app:destination="@id/ajouter_livre_fragment_destination" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/filter_fragment_destination"
+        android:name="com.app.android.tutorielc1firestore.ui.FilterDialogFragment"
+        android:label="Filter Fragment"
+        tools:layout="@layout/fragment_filter_dialog">
+        <action
+            android:id="@+id/action_filter_fragment_destination_to_liste_livres_fragment_destination"
+            app:destination="@id/liste_livres_fragment_destination" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ajouter_livre_fragment_destination"
+        android:name="com.app.android.tutorielc1firestore.ui.AjouterLivreFragment"
+        android:label="Ajouter livre Fragment"
+        tools:layout="@layout/fragment_ajouter_livre">
+        <action
+            android:id="@+id/action_ajouter_livre_fragment_destination_to_liste_livres_fragment_destination"
+            app:destination="@id/liste_livres_fragment_destination" />
+    </fragment>
+
+</navigation>

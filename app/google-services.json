@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "304925878256",
+    "project_id": "applicationlivres",
+    "storage_bucket": "applicationlivres.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304925878256:android:015e550668a012c4e79f35",
+        "android_client_info": {
+          "package_name": "com.app.android.tutorielc1firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304925878256-quoe8999upgle0l2tsb6d83npsf1hhft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHpJ7vNIUszD0kKxRbpxd8kUIQ_OSqkxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304925878256-quoe8999upgle0l2tsb6d83npsf1hhft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

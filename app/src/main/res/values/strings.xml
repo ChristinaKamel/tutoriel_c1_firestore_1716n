@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TutorielC1Firestore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="book_name_edit_text_hint">Nom livre</string>
+    <string name="book_author_edit_text_hint">Autheur livre</string>
+</resources>
